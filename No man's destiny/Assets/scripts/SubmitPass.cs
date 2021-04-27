@@ -13,7 +13,7 @@ public class SubmitPass : MonoBehaviour
     public void StoreName() {
         name1 = inputField.GetComponent<TMP_InputField>().text;
         password1 = password.GetComponent<TMP_InputField>().text;
-        Debug.Log("my name is : " + name1);
+        Debug.Log("my name iss : " + name1);
         Debug.Log("my password is : " + password1);
     }
     
