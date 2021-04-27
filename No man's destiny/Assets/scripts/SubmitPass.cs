@@ -6,10 +6,14 @@ using TMPro;
 
 public class SubmitPass : MonoBehaviour
 {
-    public string name1;
+    private string name1;
+    private string password1;
     public GameObject inputField;
+    public GameObject password;
     public void StoreName() {
         name1 = inputField.GetComponent<TMP_InputField>().text;
+        password1 = password.GetComponent<TMP_InputField>().text;
         Debug.Log("my name is : " + name1);
+        Debug.Log("my password is : " + password1);
     }
 }
