@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -173,8 +173,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f487fbf13893ad641ab78f84e7c2e16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name1: 
   inputField: {fileID: 0}
+  password: {fileID: 0}
 --- !u!114 &43867296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1272,8 +1272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f487fbf13893ad641ab78f84e7c2e16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name1: 
-  inputField: {fileID: 0}
+  inputField: {fileID: 1071253641}
+  password: {fileID: 1332328022}
 --- !u!114 &239376800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2196,7 +2196,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 638561531}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 239376799}
+        m_TargetAssemblyTypeName: SubmitPass, Assembly-CSharp
+        m_MethodName: StoreName
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &638561531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3004,7 +3016,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &893854294
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4830,7 +4842,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1499299385
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5626,8 +5638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f487fbf13893ad641ab78f84e7c2e16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name1: 
   inputField: {fileID: 0}
+  password: {fileID: 0}
 --- !u!1 &1813632002
 GameObject:
   m_ObjectHideFlags: 0

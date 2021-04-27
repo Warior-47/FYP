@@ -16,4 +16,5 @@ public class SubmitPass : MonoBehaviour
         Debug.Log("my name is : " + name1);
         Debug.Log("my password is : " + password1);
     }
+    
 }
